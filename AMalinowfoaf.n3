@@ -1,0 +1,24 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://njh.me/#me>
+  a foaf:Person ;
+  foaf:name "Aleksander Malinow" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Aleksander" ;
+  foaf:family_name "Malinow" ;
+  foaf:nick "amalinow" ;
+  foaf:mbox <mailto:amal@wp.pl> ;
+  foaf:phone <tel:78291293> ;
+  foaf:workplaceHomepage <http://njh.me/credit-suisse.com> ;
+  foaf:schoolHomepage <http://njh.me/uni.wroc.pl> .
+
+[]
+  a rdf:Property, owl:ObjectProperty ;
+  rdfs:label "mothersmaidenname" ;
+  rdfs:comment "Mother's maiden name." ;
+  rdfs:domain foaf: ;
+  rdfs:range xsd:string .
