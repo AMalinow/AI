@@ -1,0 +1,22 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+	  <rdf:Property rdfs:label="mothersmaidenname" 
+	  rdfs:comment="Mother's maiden name.">
+		
+	</rdf:Property>
+<foaf:Person rdf:ID="me">
+<foaf:name>Aleksander Malinow</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Aleksander</foaf:givenname>
+<foaf:family_name>Malinow</foaf:family_name>
+<foaf:nick>amalinow</foaf:nick>
+<foaf:mbox rdf:resource="mailto:amal@wp.pl"/>
+<foaf:phone rdf:resource="tel:78291293"/>
+<foaf:workplaceHomepage rdf:resource="credit-suisse.com"/>
+<foaf:schoolHomepage rdf:resource="uni.wroc.pl"/>
+<mothersmaidenname>Bialoglowicz</mothersmaidenname>
+</foaf:Person>
+</rdf:RDF>
