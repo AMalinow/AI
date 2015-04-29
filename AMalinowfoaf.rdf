@@ -17,6 +17,6 @@
 <foaf:phone rdf:resource="tel:78291293"/>
 <foaf:workplaceHomepage rdf:resource="credit-suisse.com"/>
 <foaf:schoolHomepage rdf:resource="uni.wroc.pl"/>
-<foaf:mothersmaidenname>Bialoglowicz</foaf:mothersmaidenname>
+<mothersmaidenname>Bialoglowicz</mothersmaidenname>
 </foaf:Person>
 </rdf:RDF>
